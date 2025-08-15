@@ -5,8 +5,11 @@ export default function Hero(){
     <section className="container section hero">
       <div>
         <span className="badge">Welcome</span>
-        <h1 className="title">Smart solutions in business & real estate.</h1>
-        <p className="subtitle">We connect opportunities, capital and people—built with modern tech and human insight.</p>
+        <h1 className="title">MERCHANT MUSADA WORLD LIMITED</h1>
+        <p className="subtitle">It derives a great pleasure,to take this Medium,to express our gratitude 
+                 for choosing Mechant musada world limited as your business partner,We strive to
+                 provide reliable quality service through continual improvement and consider customer
+                 satisfaction as our highest priority.</p>
         <div className="cta">
           <Link to="/business" className="btn">Explore Business</Link>
           <Link to="/real-estate" className="btn secondary">Real Estate</Link>
