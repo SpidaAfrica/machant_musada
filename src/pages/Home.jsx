@@ -39,17 +39,19 @@ export default function Home(){
         </div>
       </section>
       <section className="container section">
-        <div className="grid two">
-          <div className="card">
-            <h3>Real Estate</h3>
-            <p>We acquire, develop and manage assets that create value for investors and communities.</p>
-            <Link to="/real-estate" className="btn">See properties</Link>
-          </div>
-          <div className="card">
-            <h3>Work with Us</h3>
-            <p>We’re building long-term partnerships. Let’s create something great together.</p>
-            <Link to="/contact" className="btn secondary">Contact us</Link>
-          </div>
+        <div className="kicker">Partners</div>
+        <h2>Our Partners</h2>
+        <h3 className="lead">LAUGHTER ARK AKELEYWOOD LTD</h3>
+        <div className="grid four" style={{marginTop:16}}>
+          <div className="card"><img src="/images/Endless field with rows of corn plants growing in the ground.jpeg" alt="" /></div>
+          <div className="card"><img src="/images/vegitable.jpeg" alt="" /></div>
+          <div className="card"><img src="/images/Donna Jos Sia.jpeg" alt="" /></div>
+        </div>
+        <h3 className="lead">CIVIC ARK ALUMINIUM WORLD LTD</h3>
+        <div className="grid four" style={{marginTop:16}}>
+          <div className="card"><img src="/images/Construction.jpeg" alt="" /></div>
+          <div className="card"><img src="/images/crane in construction site.jpeg" alt="" /></div>
+          <div className="card"><img src="/images/Unknown 56.jpeg" alt="" /></div>
         </div>
       </section>
       <section className="container section">
