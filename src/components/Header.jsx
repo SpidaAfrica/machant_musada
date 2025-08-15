@@ -7,7 +7,7 @@ export default function Header(){
   return (
     <div>
       <div className="nav">
-        <Link to="/" className="brand"><img src="/images/logo.png" alt="" className="logo"/><span>Machant Musada</span></Link>
+        <Link to="/" className="brand"><img src="/images/logo.png" alt="" className="logo"/><span>Merchant Musada</span></Link>
         <nav className="menu">
           <NavLink to="/" style={active}>Home</NavLink>
           <NavLink to="/about" style={active}>About</NavLink>
