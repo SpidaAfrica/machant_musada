@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Footer(){
   return (
     <div className="row">
-      <div>&copy; {new Date().getFullYear()} Machant Musada</div>
+      <div>&copy; {new Date().getFullYear()} Merchant Musada</div>
       <nav style={{display:'flex',gap:12,flexWrap:'wrap'}}>
         <Link to="/about">About</Link>
         <Link to="/business">Business</Link>
